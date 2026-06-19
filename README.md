@@ -2,6 +2,8 @@
 
 A CLI for breaking down Claude Code API costs by tool call, model, and project. Reads the JSONL session files Claude Code writes to `~/.claude/projects/`.
 
+![claude-usage-tool output](Screenshot.png)
+
 ## Installation
 
 ```bash
