@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-claude-usage-by-tool.py — Break down Claude Code cost by tool call.
+claude_usage.py — Break down Claude Code cost by tool call.
 
 Usage:
     claude-usage-tool today        # current day

@@ -1,8 +1,8 @@
 """
-Tests for claude-usage-by-tool.py
+Tests for claude_usage.py
 
 Run with:
-    python3 -m pytest ~/tools/test_claude_usage_by_tool.py -v
+    python3 -m pytest test_claude_usage.py -v
 """
 
 import json
@@ -11,8 +11,8 @@ import sys
 import tempfile
 from datetime import datetime, timezone, timedelta
 
-sys.path.insert(0, os.path.expanduser('~/tools'))
-from claude_usage_by_tool import entry_cost, get_prices, analyze_entries, extract_project_name
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from claude_usage import entry_cost, get_prices, analyze_entries, extract_project_name
 
 # ── entry_cost ────────────────────────────────────────────────────────────────
 

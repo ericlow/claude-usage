@@ -2,11 +2,11 @@
 Schema validation tests for Claude Code JSONL transcript files.
 
 These tests read REAL data from ~/.claude/projects/ and assert the exact
-structure that claude_usage_by_tool.py depends on. If Anthropic changes the
+structure that claude_usage.py depends on. If Anthropic changes the
 format, these tests fail loudly instead of the tool silently producing wrong numbers.
 
 Run with:
-    python3 -m pytest ~/tools/test_jsonl_schema.py -v
+    python3 -m pytest test_jsonl_schema.py -v
 """
 
 import json

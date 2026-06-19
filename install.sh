@@ -2,7 +2,7 @@
 set -e
 
 INSTALL_DIR="$HOME/.local/bin"
-SCRIPT="$(cd "$(dirname "$0")" && pwd)/claude_usage_by_tool.py"
+SCRIPT="$(cd "$(dirname "$0")" && pwd)/claude_usage.py"
 
 mkdir -p "$INSTALL_DIR"
 ln -sf "$SCRIPT" "$INSTALL_DIR/claude-usage-tool"
